@@ -55,4 +55,9 @@ public class MRU {
 		return d/t;
 	}
 	
+	public float calcularTiempo(float d, float v) {
+		float t = d/v;
+		return t;
+	}
+	
 }

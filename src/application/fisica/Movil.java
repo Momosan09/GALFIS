@@ -32,6 +32,14 @@ public class Movil {
 		return posicion;
 	}
 	
+	public void setPos(float pos) {
+		this.posicion = pos;
+	}
+	
+	public void setVel(float v) {
+		this.velocidad = v;
+	}
+	
 	public void calcularPosicion(float v, float t) {
 		posicion = mru.calcularPosicion(v, t);
 	}
